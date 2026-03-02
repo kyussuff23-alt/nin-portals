@@ -1,0 +1,24 @@
+
+
+.alert {
+  transition: opacity 0.5s ease-out;
+}
+
+.portal-header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #2c3e50;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.portal-btn {
+  color: #ffffff;              /* white text for contrast */
+  background: transparent;     /* no background */
+  font-weight: 600;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.portal-btn:hover {
+  color: #ffd700;              /* golden accent on hover */
+  transform: scale(1.1);       /* subtle zoom effect */
+}
